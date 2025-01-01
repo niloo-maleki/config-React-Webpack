@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+if [ -n "$PSVersionTable" ]; then
+# in PowerShell
+  pnpm dlx commitlint --edit $args[0]
+else
+  # in Git Bash
+  pnpm dlx commitlint --edit $1
+fi
+

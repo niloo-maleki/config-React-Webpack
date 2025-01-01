@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+if [ -n "$PSVersionTable" ]; then
+  # in PowerShell
+  pnpm lint-staged
+else
+  # in Git Bash
+  pnpm lint-staged
+fi
