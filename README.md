@@ -1,4 +1,3 @@
-````markdown
 # config-React-Webpack
 
 This project is a React application configured with Webpack to provide an optimized build process for both development and production. It focuses on enhancing the performance, modularity, and maintainability of the application while using modern JavaScript and React features.
@@ -15,7 +14,6 @@ Clone the repository and install the dependencies:
 git clone https://github.com/niloo-maleki/config-React-Webpack.git
 pnpm install
 ```
-````
 
 ### Running the Setup for Git Hooks (Husky)
 
