@@ -112,3 +112,15 @@ This project uses **Husky** and **Lint-staged** to enforce code quality before c
 2. Follow the commit message standards to maintain consistency.
 3. Use `pnpm lint` and `pnpm format` before pushing changes to the repository.
 4. Refer to the `src` folder structure for component organization.
+
+
+---
+
+## Troubleshooting
+
+### "Cannot Execute Binary File" Error with Husky
+
+If you're encountering the error **".husky/pre-msg: cannot execute binary file"**, follow the steps below to resolve the issue:
+
+[See detailed troubleshooting steps here](https://github.com/niloo-maleki/config-React-Webpack/issues)
+
