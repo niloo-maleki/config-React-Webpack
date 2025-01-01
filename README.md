@@ -13,7 +13,6 @@ Clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/niloo-maleki/config-React-Webpack.git
-cd crm
 pnpm install
 ```
 ````
@@ -53,6 +52,7 @@ This project leverages the following tools and technologies:
 - **Lint-staged**: To lint staged files before committing.
 - **Commitlint**: To enforce conventional commit messages.
 - **ESLint & Prettier**: For linting and formatting the codebase.
+- **Framer Motion**: Animation Library.
 
 ---
 
